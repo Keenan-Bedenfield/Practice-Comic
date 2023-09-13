@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#title {
+  color: #22223b;
+}
+
+header {
+  background-color: #c9ada7;
+  border: 4px solid rgb(211, 202, 211);
+  height: 13vh;
+  text-align: center;
+}
+
+#containerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 900px;
+}
+
+.box {
+  display: inline-block;
+  width: 275px;
+  height: 250px;
+  border: solid rgb(41, 39, 32);
+  margin: 7px;
+  background-color: cornsilk;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.other-stick-figure,
+.sad-stick {
+  width: 50%;
+}
+
+.stick-guy-tie-hands-up {
+  width: 40%;
+}
+
+.text {
+  background-color: whitesmoke;
+  width: 40%;
+  padding: 5px;
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+}
